@@ -34,7 +34,8 @@ int main() {
         err=abs((b-a)/2);
     }while(err > 1e-6);
 
-    cout<<int(x*10000/10000.0)<<endl;
+    cout<<x<<endl;
+    cout<<f(x)<<endl;
     
   
    return 0;
